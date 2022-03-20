@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Weather App</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="./style.css">
+	<script src="./script.js"></script>
+
+</head>
+
+<body class="bud">
+
+	<div id="root">
+
+		<div id="selection">
+
+			<div id="selectBox">
+				<label for="cities">My favourite city:</label>
+				<select name="cities" id="cities">
+					<option value="Budapest">Budapest</option>
+					<option value="London">London</option>
+					<option value="Paris">Paris</option>
+					<option value="Rome">Rome</option>
+					<option value="Barcelona">Barcelona</option>
+				</select>
+			</div>
+			<br>
+
+			<div class="autocomplete">
+				<label for="allCities">Please choose another city!</label>
+				<input list="allCitiesList" name="allCities" id="allCities">
+				<datalist id="allCitiesList">
+
+				</datalist>
+			</div>
+
+		</div>
+		<br>
+
+		<div id="cityWeather">
+			<h3 id="cityName"></h3>
+			<p id="country"></p>
+			<div>
+				<span id="temp"></span>
+			</div>
+			<div>
+				<span class="humi"></span>
+				<span id="humidity"></span>
+			</div>
+			<img>
+			<span id="condition"></span>
+			<div id="spinner"></div>
+		</div>
+
+	</div>
+</body>
+
+</html>
