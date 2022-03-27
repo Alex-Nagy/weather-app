@@ -6,6 +6,5 @@ fetch JSON from WeatherAPI.com
 - Loading animation
 - Fetch images
 - Figma
- Mehet
 
 not working now
