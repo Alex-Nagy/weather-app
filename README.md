@@ -6,5 +6,6 @@ fetch JSON from WeatherAPI.com
 - Loading animation
 - Fetch images
 - Figma
+- icon
 
 not working now
