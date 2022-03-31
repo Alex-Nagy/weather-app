@@ -6,6 +6,6 @@ fetch JSON from WeatherAPI.com
 - Loading animation
 - Fetch images
 - Figma
-- Icons
+- gh pages
 
 not working now
