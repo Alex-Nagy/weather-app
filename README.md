@@ -7,5 +7,6 @@ fetch JSON from WeatherAPI.com
 - Fetch images
 - Figma
 - gh pages
+- RestAPI
 
 not working now
