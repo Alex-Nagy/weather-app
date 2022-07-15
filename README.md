@@ -9,4 +9,4 @@ fetch JSON from WeatherAPI.com
 - gh pages
 - RestAPI
 
-not working now
+not working now! ❌
