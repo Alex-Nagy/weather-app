@@ -1,7 +1,7 @@
 # Weather App
 
 fetch JSON from WeatherAPI.com
-
+- Vanilla JS
 - Temperature
 - Loading animation
 - Fetch images
