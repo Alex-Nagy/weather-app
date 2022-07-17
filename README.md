@@ -6,7 +6,7 @@ fetch JSON from WeatherAPI.com
 - Loading animation
 - Fetch images
 - Figma
-- gh pages
+- gh-pages
 - RestAPI
 
 not working now! ❌
